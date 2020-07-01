@@ -1,9 +1,12 @@
+// web/src/pages/HomePage/Homepage.js
+import GlobalLayout from 'src/layouts/GlobalLayout/GlobalLayout'
+
 const HomePage = () => {
   return (
-    <div>
+    <GlobalLayout>
       <h1>HomePage</h1>
-      <p>Find me in ./web/src/pages/HomePage/HomePage.js</p>
-    </div>
+      <p>Here lies a Redwood recipe.</p>
+    </GlobalLayout>
   )
 }
 
