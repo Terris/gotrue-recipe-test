@@ -1504,6 +1504,11 @@
     lodash.omitby "^4.6.0"
     merge-graphql-schemas "^1.7.6"
 
+"@redwoodjs/auth@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/auth/-/auth-0.12.0.tgz#274b92c444e7ff1c064136579f0c8ac1d90efdcf"
+  integrity sha512-ECGhPKpywmsqieXDuDmuPichiEeN5t1Z3Ji7Xe0/xkTrH3HfWKVY3/DRY2lA8ctOXPm/sORr4szH7M/c+kFfbQ==
+
 "@redwoodjs/cli@^0.12.0":
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/@redwoodjs/cli/-/cli-0.12.0.tgz#be097b9a16344b0d9bcd958ffdc7a84e35ae5d14"
@@ -5892,6 +5897,13 @@ globby@^7.1.1:
     pify "^3.0.0"
     slash "^1.0.0"
 
+gotrue-js@^0.9.26:
+  version "0.9.26"
+  resolved "https://registry.yarnpkg.com/gotrue-js/-/gotrue-js-0.9.26.tgz#c5e39fec1539d12893042979435972847a2a5f79"
+  integrity sha512-UC1MIyyjfPxwpyd8X/xeigtUUaHI3+0dXvUEjymBfN3wE2MUfANVyTtO5HMwlBGlEFwbXuH0D1h6EExcvm/nug==
+  dependencies:
+    micro-api-client "^3.2.1"
+
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.2.0, graceful-fs@^4.2.4:
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
@@ -6240,7 +6252,7 @@ http-errors@~1.6.2:
     setprototypeof "1.1.0"
     statuses ">= 1.4.0 < 2"
 
-http-parser-js@>=0.5.1:
+http-parser-js@>=0.5.1, http-parser-js@^0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.5.2.tgz#da2e31d237b393aae72ace43882dd7e270a8ff77"
   integrity sha512-opCO9ASqg5Wy2FNo7A0sxy71yGbbkJJXLdgMK04Tcypw9jr2MgWbyubb0+WdmDmGnFflO7fRbqbaihh/ENDlRQ==
@@ -7885,6 +7897,11 @@ methods@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
+
+micro-api-client@^3.2.1:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/micro-api-client/-/micro-api-client-3.3.0.tgz#52dd567d322f10faffe63d19d4feeac4e4ffd215"
+  integrity sha512-y0y6CUB9RLVsy3kfgayU28746QrNMpSm9O/AYGNsBgOkJr/X/Jk0VLGoO8Ude7Bpa8adywzF+MzXNZRFRsNPhg==
 
 microevent.ts@~0.1.1:
   version "0.1.1"
@@ -10898,6 +10915,8 @@ typescript@^3.8.3:
 undici@mcollina/undici:
   version "1.0.3"
   resolved "https://codeload.github.com/mcollina/undici/tar.gz/d7813f4ca42314eae843773e754650bc2a6ad909"
+  dependencies:
+    http-parser-js "^0.5.2"
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
